@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #333333;
+  line-height: 1.6;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  font-size: 12px;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #d6d6d6;
+  padding: 12px 0;
+}
+
+.contact-top {
+  display: flex;
+  flex-direction: row;
+}
+
+.social-list {
+  display: flex;
+  margin-right: 0.5vh;
+}
+
+.social-list li {
+  list-style-type: none;
+  margin-right: 1vh;
+  cursor: pointer;
+}
+
+.questions-phone {
+  text-transform: uppercase;
+  color: #8b8b8b;
+}
+
+.questions-phone a {
+  font-weight: bold;
+  color: #333333;
+  text-decoration: none;
+}
+
+.account-top {
+  display: flex;
+  align-items: center;
+}
+
+.logout-account {
+  text-transform: uppercase;
+  color: #8b8b8b;
+  margin-right: 1.2vh;
+  font-weight: bold;
+}
+
+.search-account button {
+  background-color: #808080;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.search-account button:focus {
+  outline: none;
+}
+
+.bottom-header {
+  padding: 12px 0;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  display: flex;
+  margin-right: 109px;
+}
+
+.image-logo {
+  margin-right: 22px;
+}
+
+.nav-title {
+  text-transform: capitalize;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-header {
+  display: flex;
+}
+
+.menu-navbar {
+  display: flex;
+}
+
+.menu-navbar li {
+  list-style-type: none;
+  margin-right: 34px;
+  cursor: pointer;
+  color: #333333;
+  font-weight: 600;
+}
+
+.menu-navbar li:first-child {
+  text-transform: capitalize;
+}
+
+.cart-information {
+  display: flex;
+}
+
+.shop-cart {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.items-carts {
+  margin-right: 12px;
+}
+
+.information-shop p {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.bookmark-offers {
+  position: relative;
+  height: 70px;
+  width: 50px;
+  padding: 0px;
+  -webkit-transform: rotate(0deg) skew(0deg);
+  transform: rotate(0deg) skew(0deg);
+  border-left: 25px solid #3bbfad;
+  border-right: 25px solid #3bbfad;
+  border-bottom: 25px solid transparent;
+  text-align: center;
+}
