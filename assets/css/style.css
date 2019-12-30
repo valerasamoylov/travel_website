@@ -18,6 +18,8 @@ body {
   margin: 0 auto;
 }
 
+/* HEADER */
+
 .header {
   font-size: 12px;
 }
@@ -42,7 +44,10 @@ body {
 .social-list li {
   list-style-type: none;
   margin-right: 1vh;
-  cursor: pointer;
+}
+
+.social-list li a {
+  color: #333333;
 }
 
 .questions-phone {
@@ -114,12 +119,19 @@ body {
 .menu-navbar li {
   list-style-type: none;
   margin-right: 34px;
-  cursor: pointer;
-  color: #333333;
-  font-weight: 600;
 }
 
-.menu-navbar li:first-child {
+.menu-navbar li a {
+  color: #333333;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.menu-navbar li a:hover {
+  color: #3bbfad;
+}
+
+.menu-navbar li:first-child a:first-child {
   text-transform: capitalize;
 }
 
@@ -153,4 +165,44 @@ body {
   border-right: 25px solid #3bbfad;
   border-bottom: 25px solid transparent;
   text-align: center;
+}
+
+/* INTRO */
+
+.intro {
+  width: 100%;
+  height: 100vh;
+  background: url("../images/intro-bg.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro-title {
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 0;
+}
+
+.intro p {
+  background-color: #3bbfad;
+  color: #fff;
+  text-align: center;
+}
+
+.intro p span {
+  color: #ffff00;
+}
+
+.intro-inner {
+  width: 100%;
+  max-width: 880px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
